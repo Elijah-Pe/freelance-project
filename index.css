@@ -13,5 +13,60 @@
     -webkit-text-size-adjust: 100%;
   }
   body {
-    margin: 0;
+    margin: 8px;
+    font-family: SF-Pro-Display, Arial, Helvetica, sans-serif;
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header.navigation {
+    flex-direction: row;
+    align-items: center; 
+    display : flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .brandlogo {
+    flex-direction: row;
+    display: flex;
+    
+    align-items: center;
+  }
+  .brand {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .logo {
+    width: 18px;
+    height: 11px;
+    padding-right: 2px;
+  }
+  .Hpage {
+    gap: 15px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 9px;
+  }
+  .button {
+    background-color: #0077C0;
+    padding: 1px 12px 1px 12px;
+    margin-left: 15px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 18px;
+   
   }
