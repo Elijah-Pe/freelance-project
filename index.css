@@ -13,7 +13,7 @@
     -webkit-text-size-adjust: 100%;
   }
   body {
-    margin: 8px;
+    margin: 0px;
     font-family: SF-Pro-Display, Arial, Helvetica, sans-serif;
     width: 640px;
     margin-left: auto;
@@ -25,6 +25,7 @@
     display : flex;
     justify-content: space-between;
     width: 500px;
+    height: 45px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -67,6 +68,62 @@
     border-radius: 4px;
     font-weight: 600;
     font-size: 8px;
+    color: #FFFFFF;
     line-height: 18px;
    
   }
+
+  .presentation {
+    flex-direction: row;
+    align-items: center; 
+    display : flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .prtxt {
+    width: 240px;
+    height: auto;
+  }
+
+  .recruit {
+    width: 240px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: -0.3px;
+    margin-top: 0;
+    margin-bottom: auto;
+  }
+
+  .connect {
+    width: 170px;
+    height: 32px;
+    font-weight: 400px;
+    font-size: 7px;
+    line-height: 11px;
+  }
+
+  .button2 {
+    background-color: #0077C0;
+    display: inline-block;
+    padding: 1px 10px 1px 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 8px;
+    color: #FFFFFF;
+    line-height: 18px;
+  }
+
+  .imgfman{
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: auto;
+    height: 300px;
+  }
+  /*в преыдущем и следующем селекторе одинаковые свойства. правильно ли я делаю, и как можно сократить?*/
+  /*забыли, сам проверил, следубщий селектор просто удалил*/
