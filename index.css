@@ -12,6 +12,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-text-size-adjust: 100%;
   }
+
   body {
     margin: 0px;
     font-family: SF-Pro-Display, Arial, Helvetica, sans-serif;
@@ -19,6 +20,8 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+
   header.navigation {
     flex-direction: row;
     align-items: center; 
@@ -29,6 +32,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   .nav{
     flex-direction: row;
     display: flex;
@@ -36,22 +40,26 @@
     align-items: center;
     margin-left: 20px;
   }
+
   .brandlogo {
     flex-direction: row;
     display: flex;
     
     align-items: center;
   }
+
   .brand {
     font-weight: 700;
     font-size: 16px;
     line-height: 13px;
   }
+
   .logo {
     width: 23px;
     height: 16px;
     padding-right: 2px;
   }
+
   .Hpage {
     gap: 15px;
     flex-direction: row;
@@ -61,6 +69,7 @@
     font-size: 13px;
     line-height: 9px;
   }
+
   .button {
     background-color: #0077C0;
     padding: 6px 17px 6px 17px;
@@ -72,6 +81,7 @@
     line-height: 18px;
    
   }
+
 
   .presentation {
     flex-direction: row;
@@ -129,7 +139,45 @@
   }
 
   .firstman {
-    height: 400px;
+    height: 400px; 
   }
-  /*в преыдущем и следующем селекторе одинаковые свойства. правильно ли я делаю, и как можно сократить?*/
-  /*забыли, сам проверил, следубщий селектор просто удалил*/
+
+
+  .partners {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .airbnb {
+    height: 30px;
+    width: auto;
+  }
+
+  .google {
+    height: 30px;
+    width: auto;
+  }
+
+  .slack {
+    height: 30px;
+    width: auto;
+  }
+
+  .netflix {
+    height: 30px;
+    width: auto;
+  }
+
+  .amazon {
+    height: 30px;
+    width: auto;
+  }
+
+
+  
