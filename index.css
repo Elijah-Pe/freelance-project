@@ -180,4 +180,60 @@
   }
 
 
+  .benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0077C0;
+    height: 400px;
+    color: #FAFAFA;
+  }
+
+  .benefit__feature {
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: 4px;
+  }
+
+  .benefit__header__header {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .benefit__icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1000px;
+  }
+
+  .icons__support {
+    margin: 0 15px 0 15px;
+  }
+
+  .icons__medal__header, .icons__support__header, .icons__safe__header {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+  }
   
+  .icons__medal__text, .icons__safe__text, .icons__support__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 293px;
+  }
+
+  .medal, .headphones, .shield {
+    margin-top: 0;
+  }
