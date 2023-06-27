@@ -88,7 +88,7 @@
     align-items: center; 
     display : flex;
     justify-content: space-around;
-    max-width: 1000px;
+    max-width: 800px;
     min-height: 270px;
     margin-left: auto;
     margin-right: auto;
@@ -236,4 +236,63 @@
 
   .medal, .headphones, .shield {
     margin-top: 0;
+  }
+
+
+  .what-to-do {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
+  .what-to-do__tablet {
+    height: 420px;
+    width: auto;
+  }
+
+  .what-to-do__info {
+    padding-left: 20px;
+  }
+
+  .what-to-do__info__header {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0,1px;
+    max-width: 340px;
+    margin-top: 0;
+  }
+
+  ol.what-to-do__info__points {
+    list-style: none;
+    counter-reset: my-counter;
+    padding-left: 0;
+  }
+
+  ol li::before {
+    content: counter(my-counter);
+    counter-increment: my-counter;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #C7EEFF;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  li /*как обратиться к li в конкретном списке?*/ {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
   }
