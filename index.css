@@ -163,7 +163,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1000px;
     height: 150px;
     margin-left: auto;
@@ -207,6 +207,9 @@
     background-color: #0077C0;
     min-height: 400px;
     color: #FAFAFA;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    width: 100%;
   }
 
   .benefit__feature {
@@ -251,7 +254,8 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    max-width: 293px;
+    max-width: 290px;
+    margin-bottom: 0;
   }
 
   .medal, .headphones, .shield {
@@ -263,7 +267,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 800px;
     height: auto;
     margin-left: auto;
@@ -332,7 +336,7 @@
     flex-direction: row;
     align-items: center; 
     display : flex;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 800px;
     min-height: 270px;
     margin-left: auto;
@@ -535,3 +539,97 @@
   margin-bottom: 0;
   border-style: none;
 }
+
+
+footer {
+  background-color: #1D242B;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 0 40px 0;
+}
+
+.media {
+  min-width: 230px;
+  margin-right: 100px;
+}
+
+.media__logo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.media__logo__name {
+  margin: 0 0 0 5px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  color: #F7F8F8;
+}
+
+.social {
+  margin-right: 5px;
+}
+
+.media__txt {
+  margin-top: 30px;
+  color:  #D9DBE1;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+th {
+  text-align: left;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+ text-decoration: none;
+ color: inherit;
+}
+
+td {
+  padding-right: 35px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-bottom: 10px;
+  color: #D9DBE1;
+  min-width: 130px;
+}
+
+.footer-table__email {
+  padding-right: 0px;
+  vertical-align: top;
+}
+
+.footer__table__input {
+  border-style: none;
+  width: 200px;
+  height: 30px;
+  background-color: #828385;
+  padding: 10px;
+  border-radius: 8px;
+  color: #D9DBE1;
+}
+
+input::placeholder {
+  color: #D9DBE1;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+
+
+
